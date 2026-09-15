@@ -10,22 +10,22 @@ Este projeto foi desenvolvido com foco na criação de uma aplicação de catál
 
 Assim entre os principais pontos contemplados durante o desenvolvimento do projeto estão:
 
-- **Integração com uma API externa:/** Utilização de requisições HTTP para buscar os dados dos produtos e categorias e realizar também a autenticação de usuário.
-- **Organização da navegação:/** Estruturação das rotas e das telas de forma que o usuário consiga navegar pelo fluxo da aplicação de maneira intuitiva, desde o login, acesso ao catálogo e consulta dos detalhes de um produto.
-- **Gerenciamento de estado:/** Utilização do Redux Toolkit para armazenar temporariamente informações importantes para o funcionamento da aplicação, como o estado de autenticação e os dados do produto selecionado.
-- **Separação de responsabilidades:/** Organização do projeto em diferentes pastas e arquivos, desde a lógica à estilização, evitando concentrar códigos em único arquivo e facilitando a manutenção.
-- **Reutilização de componentes:/** Criação de componentes independentes, como o card de produto, permitindo que a mesma estrutura seja utilizada para diferentes produtos da listagem.
-- **Fluxo de logout:/** Implementação de uma ação para encerrar a sessão, limpar os dados armazenados temporariamente no Redux e retornar o usuário para a tela de login.
+- **Integração com uma API externa:** Utilização de requisições HTTP para buscar os dados dos produtos e categorias e realizar também a autenticação de usuário.
+- **Organização da navegação:** Estruturação das rotas e das telas de forma que o usuário consiga navegar pelo fluxo da aplicação de maneira intuitiva, desde o login, acesso ao catálogo e consulta dos detalhes de um produto.
+- **Gerenciamento de estado:** Utilização do Redux Toolkit para armazenar temporariamente informações importantes para o funcionamento da aplicação, como o estado de autenticação e os dados do produto selecionado.
+- **Separação de responsabilidades:** Organização do projeto em diferentes pastas e arquivos, desde a lógica à estilização, evitando concentrar códigos em único arquivo e facilitando a manutenção.
+- **Reutilização de componentes:** Criação de componentes independentes, como o card de produto, permitindo que a mesma estrutura seja utilizada para diferentes produtos da listagem.
+- **Fluxo de logout:** Implementação de uma ação para encerrar a sessão, limpar os dados armazenados temporariamente no Redux e retornar o usuário para a tela de login.
 
 ## Tecnologias utilizadas
 
 Para atender ao escopo e requisitos do projeto, foram utilizadas as seguintes tecnologias e ferramentas:
 
-- **React Native:/** Utilizado para desenvolvimento da interface e dos componentes da aplicação mobile.
-- **Axios:/** Utilizado para realizar as requisições HTTP à API tanto para autenticação quanto para o consumo de dados dos produtos.
-- **Redux Toolkit:/** Utilizado para gerenciamento do estado global e armazenamento temporário dos dados necessários entre as telas.
-- **Expo Router:/** Utilizado para organização das rotas e navegação entre as telas da aplicação.
-- **DummyJSON API:/** Utilizada como fonte externa para autenticação e obtenção dos dados dos produtos.
+- **React Native:** Utilizado para desenvolvimento da interface e dos componentes da aplicação mobile.
+- **Axios:** Utilizado para realizar as requisições HTTP à API tanto para autenticação quanto para o consumo de dados dos produtos.
+- **Redux Toolkit:** Utilizado para gerenciamento do estado global e armazenamento temporário dos dados necessários entre as telas.
+- **Expo Router:** Utilizado para organização das rotas e navegação entre as telas da aplicação.
+- **DummyJSON API:** Utilizada como fonte externa para autenticação e obtenção dos dados dos produtos.
 
 ## Instruções para execução do sistema
 
@@ -71,7 +71,7 @@ A aplicação pode ser aberta utilizando as opções disponibilizadas pelo Expo,
 
 Para testar a aplicação pelo navegador, após executar o comando npx expo start, utilize a opção Web disponibilizada pressionando a tecla w no terminal.
 
-A aplicação será aberta no navegador, para visualizá-la em um formato semelhante ao de um dispositivo mobile, é possível utilizar as ferramentas de desenvolvedor do navegador ou **DevTools/** (apertando `F12` no teclado ou clicando com o botão direito do mouse sobre a página e selecionando `inspecionar`). Já dentro da DevTools basta selecionar um dispositivo em `dimensions` ou ajustar manualmente a dimensão da tela para um formato de smartphone.
+A aplicação será aberta no navegador, para visualizá-la em um formato semelhante ao de um dispositivo mobile, é possível utilizar as ferramentas de desenvolvedor do navegador ou **DevTools** (apertando `F12` no teclado ou clicando com o botão direito do mouse sobre a página e selecionando `inspecionar`). Já dentro da DevTools basta selecionar um dispositivo em `dimensions` ou ajustar manualmente a dimensão da tela para um formato de smartphone.
 
 ### 5. Executar em dispositivo mobile
 
