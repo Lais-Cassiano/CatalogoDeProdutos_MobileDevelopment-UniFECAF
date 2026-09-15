@@ -160,7 +160,7 @@ A tela inicial que permite que o usuário informe suas credenciais para acessar 
 
 ### Catálogo de produtos
 
-Tela principal do catálogo acessa após a autenticação. Os produtos são organizados em duas abas, permitindo alternar entre a sessão de produtos masculinos e femininos.
+Tela principal do catálogo acessada após a autenticação. Os produtos são organizados em duas abas, permitindo alternar entre a sessão de produtos masculinos e femininos.
 
 **Produtos masculinos:**
 
@@ -172,7 +172,7 @@ Tela principal do catálogo acessa após a autenticação. Os produtos são orga
 
 ### Detalhes do produto
 
-Ao selecionar um produto, a aplicação apresenta uma tela com suas principais informações.
+Ao selecionar um produto, a aplicação apresenta uma tela com suas principais informações, permitindo visualização mais detalhada e completa.
 
 ![Detalhes do Produto](docs/images/detalhes-produto.png)
 
